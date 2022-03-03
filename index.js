@@ -6,8 +6,8 @@ const io = require("socket.io")(process.env.PORT, {
   cors: {
     origin: [
       "http://localhost:3000",
-      "https://social-fe.vercel.app/",
-      "https://social-fe-vuanhlk12.vercel.app/",
+      "https://social-fe.vercel.app",
+      "https://social-fe-vuanhlk12.vercel.app",
     ],
   },
 });
