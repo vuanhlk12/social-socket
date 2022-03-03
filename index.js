@@ -32,7 +32,7 @@ const getUser = (userId) => {
 
 io.on("connection", (socket) => {
   //when ceonnect
-  console.log("a user connected. ", socket.id);
+  console.log("a user connected. ", socket.id, "port", process.env.PORT);
 
   //take userId and socketId from user
   socket.on("addUser", (userId) => {
